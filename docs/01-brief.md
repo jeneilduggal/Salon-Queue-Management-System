@@ -27,6 +27,6 @@ On weekends, customers sit 1–2 hours in the salon without knowing their turn. 
 - No multi-branch switching.
 
 ## Look & Feel
-- Premium salon aesthetic: Dark Charcoal (`#1F2937` / `#111827`) + Elegant Gold accent (`#D4A017` / `#F59E0B`).
+- Premium salon aesthetic: Dark Forest green + ivory with copper accents, matching the supplied project design.
 - Clean, rounded cards (`rounded-2xl`), smooth badge animations, mobile-first responsiveness.
 - Seamless dual-language labels (English & Gujarati) throughout.
