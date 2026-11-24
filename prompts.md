@@ -1,6 +1,6 @@
 # Prompts Log — Salon Queue Management System
 
-This document logs every prompt and directive executed throughout the vibe coding process, following the MSc IT Lab Handout guide.
+This is a compiled prompt log based on the project instructions and the prompt history available for this submission. It records the main build and refinement prompts in sequence; it may not include prompts entered directly into the external coding agent if that history was not exported.
 
 ---
 
@@ -74,3 +74,14 @@ This document logs every prompt and directive executed throughout the vibe codin
 - Isolated all queue rules into `src/utils/queueRules.js`.
 - Implemented `BroadcastChannel` reactive sync bus for instant multi-window coordination.
 - Built test verification suite `tests/verifyRules.js` with 9 passing algorithmic checks.
+
+
+---
+
+## Submission and refinement instructions recorded in the project history
+
+- Develop the Salon Queue Management System according to the attached Vibe Coding project guide and make the application deployable.
+- Use the supplied project ZIP as the source of the original interface and styling; preserve its layout and colour placement rather than redesigning it.
+- Rename the application branding to **StyleNYC** while keeping the supplied design intact.
+- Correct the visual differences after reviewing the deployed result, especially where colours or their placement did not match the supplied reference.
+
