@@ -81,7 +81,7 @@ export function AuthModal() {
             <Lock className="w-7 h-7 stroke-[2]" />
           </div>
           <span className="text-[10px] font-bold uppercase tracking-widest text-copper-600">
-            L'ÉLITE Concierge Security
+            StyleNYC Concierge Security
           </span>
           <h2 className="text-2xl font-black text-forest-900 tracking-tight font-editorial mt-1">
             Staff Portal Login
