@@ -1,10 +1,11 @@
-# StyleNYC – Salon Queue Management System
+# Salon Queue Management System
 
-**Live Website:** https://stylenyc-thereiyoren-5860.vercel.app
+**Live demo:** https://stylenyc-thereiyoren-5860.vercel.app
+**Hosted on:** Vercel (frontend) — browser-based storage and synchronization
 
-## Project Overview
+## About
 
-StyleNYC is a Salon Queue Management System that helps customers join a salon queue and lets salon staff manage waiting customers, barber assignments, and service progress.
+StyleNYC is a Salon Queue Management System that helps customers join a salon queue and allows salon staff to manage waiting customers, barber assignments, and service progress.
 
 ## Main Features
 
