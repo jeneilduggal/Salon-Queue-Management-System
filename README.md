@@ -1,94 +1,62 @@
-# StyleNYC — Salon Queue Management System
+# StyleNYC – Salon Queue Management System
 
-**Live demo:** https://stylenyc-thereiyoren-5860.vercel.app
-**Hosted on:** Vercel (frontend static hosting) with browser-based cross-window synchronization
-**Staff RBAC Test Credentials:**
-- **Receptionist Dashboard (`/#/reception`):** PIN `1234`
-- **Barber Mirror View (`/#/barber`):** PIN `5678`
-- **Owner / Administrator Dashboard (`/#/admin`):** PIN `9999`
-*(Note: The Staff Portal login modal features convenient one-click demo PIN autofill buttons for evaluators.)*
+**Live Website:** https://stylenyc-thereiyoren-5860.vercel.app
 
----
+## Project Overview
 
-## About the Project
-StyleNYC is a modern, responsive Salon Queue Management System designed specifically to eliminate chaotic weekend waiting times in busy hair salons and grooming centers.
+StyleNYC is a Salon Queue Management System that helps customers join a salon queue and lets salon staff manage waiting customers, barber assignments, and service progress.
 
-Built following the **Vibe Coding MSc IT Lab Handout** guidelines, this application provides dedicated real-time interfaces for customers, receptionists, barbers, and a waiting lounge TV display.
+## Main Features
 
-### Upgraded Key Features
-- **Dynamic Visuals & 3D Micro-Interactions**:
-  - Interactive cursor-following spotlight effect with smooth radial lighting.
-  - Floating ambient glowing orbs with organic keyframe float animations.
-  - Click ripple and particle feedback across interactive controls.
-  - 3D card tilt & hover effects with glassmorphism panels.
-- **Role-Based Access Control (RBAC)**:
-  - **Customer**: Public access (Home, Join Queue, My Status, TV Display).
-  - **Receptionist**: Protected dashboard with waiting list search/filter, quick walk-in addition, and call-next controls.
-  - **Barber / Stylist**: Protected mirror view with station selector, active service timer (`mm:ss`), and break toggle.
-  - **Owner / Admin**: Protected dashboard with service pricing CRUD, barber duty roster, online queue pause switch, and business analytics.
-- **Real-Time Cross-Window Synchronization**: Zero backend latency synchronization using the `BroadcastChannel` API and reactive LocalStorage bus. Opening customer, reception, barber, and TV screens across multiple browser tabs/windows keeps all statuses in sync instantly (< 50ms).
-- **Premium Salon Aesthetic**: Original salon theme using forest green, ivory, and copper accents with smooth transitions and minimum 44px touch targets.
-- **Full Bilingual Localization**: Complete toggle between **English** and **Gujarati (ગુજરાતી)** across every label, status, service, and alert.
-- **Audio Chime & Phone Vibration**: Native Web Audio API chime sounds when a ticket is called on the TV display, paired with `navigator.vibrate` on customer smartphones.
-- **Strict Queue Business Rules**:
-  - First-Come, First-Served (FIFO) dispatch.
-  - Barber preference respect: Calling next for Barber X never grabs a customer waiting specifically for Barber Y.
-  - Duplicate phone check prevents one customer from hoarding multiple active queue spots.
-  - Emergency master switch to pause online queue joining while still allowing walk-ins.
+- Customers can view the queue and join by entering their details.
+- Customers can select services and view the estimated price and waiting time.
+- Receptionists can view and manage the waiting queue.
+- Barbers can call the next eligible customer and update service status.
+- A waiting-area display shows the currently served and upcoming customers.
+- Admins can manage services, barbers, and online queue availability.
+- The interface supports English and Gujarati.
 
----
+## Demo Login Details
 
-## The 7 App Screens
+Use these PINs to access the staff screens:
 
-| # | Screen | Route | Access | Key Capabilities |
-|---|--------|-------|--------|------------------|
-| 1 | **Customer Home** | `/` | Public | Live waiting count, wait time estimate, barber status chips, Join Queue CTA |
-| 2 | **Join Queue** | `/join` | Public | Name, 10-digit phone validation, 3-service max picker, barber choice, live price & wait summary |
-| 3 | **My Status** | `/status/:id` | Public | Large token badge, position countdown, "Start coming" alert at 2nd in line, pulsing full-screen gold celebration alert |
-| 4 | **Reception Dashboard** | `/reception` | **Receptionist (PIN: 1234)** | Search/filter queue, barber cards with progress bars, FIFO queue, amber highlight (> 60m), "+ Add walk-in" modal |
-| 5 | **Barber View** | `/barber/:name` | **Barber (PIN: 5678)** | Station selector, active client timer (`mm:ss`), big Start/Done buttons, "Next for you" preview, Break toggle |
-| 6 | **Waiting Area TV** | `/display` | Public | Active stations with "Now Serving", Up Next 5 tokens, flashing gold banner + audio chime on call |
-| 7 | **Owner Settings** | `/admin` | **Owner (PIN: 9999)** | Service catalog editor (EN/GU, prices, durations), barber duty toggles, online queue pause switch, business analytics |
+| Role | Screen | Demo PIN |
+|---|---|---|
+| Receptionist | Reception Dashboard (`/#/reception`) | `1234` |
+| Barber | Barber View (`/#/barber`) | `5678` |
+| Owner / Admin | Admin Dashboard (`/#/admin`) | `9999` |
 
----
+## Project Screens
 
-## Quick Start (Run Locally)
+1. Customer Home
+2. Join Queue
+3. Customer Queue Status
+4. Reception Dashboard
+5. Barber View
+6. Waiting Area Display
+7. Owner / Admin Dashboard
+
+## Run Locally
+
+Make sure Node.js is installed, then run:
 
 ```bash
-# 1. Navigate to the directory
-cd salon-queue
-
-# 2. Install dependencies
 npm install
-
-# 3. Start development server
 npm run dev
-
-# 4. Open in your browser
-http://localhost:5173
 ```
 
----
+Open the local URL shown in the terminal (Vite usually uses `http://localhost:5173`).
 
-## Running Verification Tests
-
-To verify that all dispatch algorithms, barber preference filtering, waiting time formulas, and phone validation rules pass:
+To create a production build:
 
 ```bash
-node tests/verifyRules.js
-```
-
----
-
-## Deployment to Vercel
-
-This app is production-ready for deployment on Vercel:
-
-```bash
-# Build production bundle
 npm run build
-
-# Deploy via Vercel CLI
-npx vercel --prod
 ```
-The output directory is `dist`, pre-configured for Vite with `vercel.json` rewrites.
+
+## Project Documentation
+
+- [Project Brief](docs/01-brief.md)
+- [Screen Documentation](docs/02-screens.md)
+- [User Flows and Business Rules](docs/03-flows-rules.md)
+- [Prompt Log](prompts.md)
+- [Reflection](reflection.md)
