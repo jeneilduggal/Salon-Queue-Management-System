@@ -15,7 +15,7 @@ Live link must be the first line after the title in README.md.
 
 ## How to work
 - One screen or one feature per task. Don't touch other screens.
-- Theme: charcoal (#1F2937) + gold (#D4A017); rounded cards.
+- Theme: preserve the supplied forest-green, ivory, and copper design; do not redesign the palette or move colour accents.
 - All labels via the EN/GU language file; no hard-coded text.
 - Queue rules live in ONE place in the code (`src/context/QueueContext.jsx` & `src/utils/queueRules.js`); reuse them everywhere.
 - Never add features from the 'Don't build' list.
