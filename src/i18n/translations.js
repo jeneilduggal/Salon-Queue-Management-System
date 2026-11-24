@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     // Navigation & Common
-    salonName: "L'ÉLITE StyleQ",
+    salonName: "StyleNYC",
     tagline: "Haute Coiffure & Luxury Grooming Lounge",
     openStatus: "Boutique Open · Evening Salon until 9 PM",
     closedStatus: "Queue Closed for Today",
@@ -76,7 +76,7 @@ export const translations = {
     fourthInLine: "4th in line",
     fifthInLine: "5th in line",
     currentlyServing: "You are currently being attended to in the stylist suite.",
-    startComingBanner: "Please proceed to L'ÉLITE lounge. You are 2nd in line.",
+    startComingBanner: "Please proceed to StyleNYC lounge. You are 2nd in line.",
     itsYourTurnTitle: "Your Suite Is Ready!",
     goToBarberPrefix: "Please proceed to Master Stylist",
     chairStation: "Station / Suite",
@@ -94,7 +94,7 @@ export const translations = {
     statusDone: "Service Concluded",
     statusCancelled: "Cancelled",
     statusNoShow: "Marked No-Show",
-    thankYouMessage: "Thank you for visiting L'ÉLITE StyleQ. We hope you enjoyed your bespoke experience.",
+    thankYouMessage: "Thank you for visiting StyleNYC. We hope you enjoyed your bespoke experience.",
 
     // Screen 4: Reception Dashboard
     receptionTitle: "Concierge & Front Desk",
@@ -131,7 +131,7 @@ export const translations = {
     breakActiveNotice: "You are currently on a short break. Clients queued for you will see an updated waiting duration.",
 
     // Screen 6: Waiting TV Display
-    tvTitle: "L'ÉLITE StyleQ — Queue Display",
+    tvTitle: "StyleNYC — Queue Display",
     tvSubtitle: "Haute Coiffure Seating Ledger",
     nowServingHeader: "Active Styling Suites",
     nowLabel: "NOW SEATING",
