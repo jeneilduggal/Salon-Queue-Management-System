@@ -61,10 +61,10 @@ export function Navbar({ currentRoute, onNavigate }) {
             <div>
               <div className="flex items-center space-x-2">
                 <span className="text-lg sm:text-2xl font-black tracking-tight text-white font-editorial">
-                  L'ÉLITE
+                  StyleNYC
                 </span>
                 <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-forest-800 text-copper-300 border border-copper-500/30 uppercase tracking-widest">
-                  StyleQ
+                  StyleNYC
                 </span>
               </div>
               <div className="flex items-center space-x-1.5 text-xs text-sage-300">
