@@ -51,10 +51,10 @@ export function WaitingDisplay() {
           <div>
             <div className="flex items-center space-x-2">
               <h1 className="text-3xl sm:text-4xl font-black tracking-tight font-editorial text-white">
-                L'ÉLITE
+                StyleNYC
               </h1>
               <span className="text-xs font-black px-2 py-0.5 rounded-full bg-forest-800 text-copper-300 border border-copper-500/30 uppercase tracking-widest">
-                StyleQ
+                StyleNYC
               </span>
             </div>
             <p className="text-sage-300 text-xs sm:text-sm font-medium tracking-widest uppercase">
@@ -260,7 +260,7 @@ export function WaitingDisplay() {
 
       {/* Footer */}
       <div className="pt-4 border-t border-forest-800 text-center text-xs text-sage-300 flex flex-col sm:flex-row items-center justify-between gap-2">
-        <span>📍 L'ÉLITE StyleQ · Promenade Arcade, Haute Suite Level 2</span>
+        <span>📍 StyleNYC · Promenade Arcade, Haute Suite Level 2</span>
         <span className="text-copper-300 font-medium">✨ Join the waiting list live from your device</span>
       </div>
 
