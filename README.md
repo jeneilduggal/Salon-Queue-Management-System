@@ -1,7 +1,7 @@
 # StyleNYC — Salon Queue Management System
 
-**Live demo:** https://stylenyc.vercel.app
-**Hosted on:** Vercel (Frontend SPA) + Cross-Window Reactive Broadcast Synchronization
+**Live demo:** https://stylenyc-thereiyoren-5860.vercel.app
+**Hosted on:** Vercel (frontend static hosting) with browser-based cross-window synchronization
 **Staff RBAC Test Credentials:**
 - **Receptionist Dashboard (`/#/reception`):** PIN `1234`
 - **Barber Mirror View (`/#/barber`):** PIN `5678`
@@ -27,7 +27,7 @@ Built following the **Vibe Coding MSc IT Lab Handout** guidelines, this applicat
   - **Barber / Stylist**: Protected mirror view with station selector, active service timer (`mm:ss`), and break toggle.
   - **Owner / Admin**: Protected dashboard with service pricing CRUD, barber duty roster, online queue pause switch, and business analytics.
 - **Real-Time Cross-Window Synchronization**: Zero backend latency synchronization using the `BroadcastChannel` API and reactive LocalStorage bus. Opening customer, reception, barber, and TV screens across multiple browser tabs/windows keeps all statuses in sync instantly (< 50ms).
-- **Premium Salon Aesthetic**: Custom theme engineered around Charcoal (`#1F2937`) and Regal Gold (`#D4A017`) with smooth transitions and minimum 44px touch targets.
+- **Premium Salon Aesthetic**: Original salon theme using forest green, ivory, and copper accents with smooth transitions and minimum 44px touch targets.
 - **Full Bilingual Localization**: Complete toggle between **English** and **Gujarati (ગુજરાતી)** across every label, status, service, and alert.
 - **Audio Chime & Phone Vibration**: Native Web Audio API chime sounds when a ticket is called on the TV display, paired with `navigator.vibrate` on customer smartphones.
 - **Strict Queue Business Rules**:
