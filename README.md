@@ -1,6 +1,6 @@
-# Salon Queue Management System
+# StyleNYC — Salon Queue Management System
 
-**Live demo:** https://salon-queue-royalcuts.vercel.app
+**Live demo:** https://stylenyc.vercel.app
 **Hosted on:** Vercel (Frontend SPA) + Cross-Window Reactive Broadcast Synchronization
 **Staff RBAC Test Credentials:**
 - **Receptionist Dashboard (`/#/reception`):** PIN `1234`
@@ -11,7 +11,7 @@
 ---
 
 ## About the Project
-Royal Cuts Salon & Spa is a modern, responsive Salon Queue Management System designed specifically to eliminate chaotic weekend waiting times in busy hair salons and grooming centers.
+StyleNYC is a modern, responsive Salon Queue Management System designed specifically to eliminate chaotic weekend waiting times in busy hair salons and grooming centers.
 
 Built following the **Vibe Coding MSc IT Lab Handout** guidelines, this application provides dedicated real-time interfaces for customers, receptionists, barbers, and a waiting lounge TV display.
 
