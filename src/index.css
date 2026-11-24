@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F4F0E7; /* Warm Ivory */
+    color: #242724; /* Charcoal */
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Modern Heritage Luxury Styling */
+.heritage-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 60, 50, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(24, 60, 50, 0.05);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.heritage-card:hover {
+  border-color: rgba(180, 119, 82, 0.35);
+  box-shadow: 0 12px 30px -4px rgba(24, 60, 50, 0.1);
+  transform: translateY(-2px);
+}
+
+.heritage-panel {
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 60, 50, 0.08);
+  box-shadow: 0 8px 30px -4px rgba(24, 60, 50, 0.06);
+}
+
+.heritage-panel-dark {
+  background: #183C32;
+  color: #F4F0E7;
+  border: 1px solid rgba(180, 119, 82, 0.25);
+  box-shadow: 0 16px 36px -6px rgba(10, 27, 22, 0.3);
+}
+
+/* Luxury Copper Button */
+.btn-copper {
+  background-color: #B47752;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(180, 119, 82, 0.25);
+}
+
+.btn-copper:hover {
+  background-color: #9E5F3D;
+  box-shadow: 0 6px 20px rgba(180, 119, 82, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-copper:active {
+  transform: translateY(0);
+}
+
+/* Forest Green Button */
+.btn-forest {
+  background-color: #183C32;
+  color: #F4F0E7;
+  transition: all 0.2s ease;
+}
+
+.btn-forest:hover {
+  background-color: #122D26;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+/* Subtle editorial dividers */
+.divider-heritage {
+  background: linear-gradient(90deg, transparent, rgba(180, 119, 82, 0.3), transparent);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F0E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #A6B3A0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B47752;
+}
