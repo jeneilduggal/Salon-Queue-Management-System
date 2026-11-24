@@ -7,7 +7,7 @@ This document details every screen, target audience, layout hierarchy, element i
 ## Screen 1: Customer Home (`/`)
 - **Target User**: Walk-in or prospective customer arriving at salon URL.
 - **Header**:
-  - Salon branding (Logo + "Royal Cuts Salon & Spa").
+  - Salon branding (Logo + "StyleNYC").
   - Status badge: `'Open · Closes 9 PM'` (green pulse) or `'Closed for Queue'` (amber).
   - Language toggle: `[ English | ગુજરાતી ]`.
   - Quick nav bar / staff shortcut drawer (Home, Join, My Status, Reception, Barber, TV Display, Admin).
