@@ -130,14 +130,14 @@ function MainApp() {
       {!isTVView && (
         <footer className="bg-forest-950 text-ivory-200 border-t border-forest-800 py-10 px-4 sm:px-6 lg:px-8 mt-16 text-center text-xs space-y-3">
           <div className="flex items-center justify-center space-x-2">
-            <span className="font-editorial text-lg text-white font-bold">L'ÉLITE StyleQ</span>
+            <span className="font-editorial text-lg text-white font-bold">StyleNYC</span>
             <span className="text-copper-400 font-bold uppercase tracking-widest text-[10px]">· Haute Coiffure</span>
           </div>
           <p className="text-sage-300 max-w-md mx-auto">
             Promenade Arcade, Level 2 · Exceptional Hair Design, Botanical Treatments & Classical Hot Towel Rituals.
           </p>
           <p className="text-charcoal-400 text-[11px] pt-2">
-            © {new Date().getFullYear()} L'ÉLITE StyleQ. All rights reserved. Persistent Real-Time Queue Synchronization.
+            © {new Date().getFullYear()} StyleNYC. All rights reserved. Persistent Real-Time Queue Synchronization.
           </p>
         </footer>
       )}
